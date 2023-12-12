@@ -5,7 +5,7 @@ class Animal {
 		this.species = species;
 	}
 
-	get species(){
+	get (){
 		return this.species;
 	}
 
