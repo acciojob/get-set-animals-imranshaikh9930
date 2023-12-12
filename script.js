@@ -23,12 +23,12 @@ class Dog extends Animal {
 
   // Method specific to Dog class
   bark() {
-    console.log("Woof");
+    console.log("The Golden Retriever makes a sound");
   }
 
   // Override the makeSound method to provide a dog-specific sound
   makeSound() {
-    console.log("The Golden Retriever makes a sound");
+    console.log("Bark");
   }
 }
 
@@ -40,12 +40,12 @@ class Cat extends Animal {
 
   // Method specific to Cat class
   purr() {
-    console.log("Purr");
+    console.log("The Siamese makes a sound");
   }
 
   // Override the makeSound method to provide a cat-specific sound
   makeSound() {
-    console.log("The Siamese makes a sound");
+    console.log("meow");
   }
 }
 
