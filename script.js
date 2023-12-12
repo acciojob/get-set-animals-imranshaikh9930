@@ -28,7 +28,7 @@ class Dog extends Animal {
 
   // Override the makeSound method to provide a dog-specific sound
   makeSound() {
-    console.log("Bark");
+    console.log("woof");
   }
 }
 
@@ -45,7 +45,7 @@ class Cat extends Animal {
 
   // Override the makeSound method to provide a cat-specific sound
   makeSound() {
-    console.log("meow");
+    console.log("purr");
   }
 }
 
